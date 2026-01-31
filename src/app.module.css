@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.list {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: start;
+
+}
+
+.listItem {
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 20rem;
+    list-style-type: none;
+    background-color: #ffe9f6;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    &:hover {
+        background-color: #ffd1ec;
+    }
+}
